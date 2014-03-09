@@ -39,6 +39,9 @@ var userid = idify({
     },
 });
 
+// you can setup idify after instantiation
+userid.setup({/* opts */});
+
 // a connection to redis is required before you perform any operation
 userid.connect().then(function() {
     // ready to get going
