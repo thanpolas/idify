@@ -10,6 +10,20 @@ Install the module with: `npm install idify --save`
 
 ## Documentation
 
+```js
+
+var idify = require('idify');
+
+var userid = idify({
+    name: 'user',
+    prefix: 'app',
+    idLength: 5,
+});
+
+userid.get().then(function(id) {
+    console.log('A Unique 5 char id guarantee:', id);
+});
+```
 
 
 
