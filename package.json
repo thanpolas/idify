@@ -1,0 +1,40 @@
+{
+  "name": "idify",
+  "version": "0.0.0",
+  "main": "./",
+  "description": "Get any unique Id format guaranteed",
+  "homepage": "https://github.com/thanpolas/idify",
+  "bugs": "https://github.com/thanpolas/idify/issues",
+  "author": {
+    "name": "Thanasis Polychronakis",
+    "email": "thanpolas@gmail.com",
+    "url": "https://github.com/thanpolas"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thanpolas/idify"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -b test/spec -u bdd  -R spec"
+  },
+  "dependencies": {
+    "cip": "~0.2.1",
+    "middlewarify": "~0.3.7",
+    "bluebird": "~1.1.0",
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "grunt-release": "~0.7.0"
+    "load-grunt-tasks": "~0.4.0",
+    "mocha": "~1.17.1",
+    "grunt-mocha-test": "~0.9.4",
+    "grunt": "~0.4.3",
+    "chai": "~1.9.0",
+    "sinon": "~1.9.0"
+  }
+}
