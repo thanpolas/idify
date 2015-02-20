@@ -62,11 +62,13 @@ userid.get().then(function(id) {
 
 ## Release History
 
+- **v0.1.0**, *20 Feb 2015*
+    - Fixed bug in recurse method.
 - **v0.0.1**, *09 Mar 2014*
     - Big Bang
 
 ## License
-Copyright (c) 2014 Thanasis Polychronakis. Licensed under the MIT license.
+Copyright ©2015 Thanasis Polychronakis. Licensed under the MIT license.
 
 [express]: expressjs.com
 [kansas]: https://github.com/thanpolas/kansas
