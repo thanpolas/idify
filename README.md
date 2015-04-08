@@ -62,6 +62,8 @@ userid.get().then(function(id) {
 
 ## Release History
 
+- **v0.1.1**, *08 Apr 2015*
+    - Fix redis version check.
 - **v0.1.0**, *20 Feb 2015*
     - Fixed bug in recurse method.
 - **v0.0.1**, *09 Mar 2014*
