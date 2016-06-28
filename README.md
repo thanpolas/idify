@@ -36,6 +36,7 @@ var userid = idify({
       host: 'localhost',
       pass: null,
       redisOptions: null, // special redis options, pass as object
+      uri: 'redis://user:pass@example.com:6379', // optional URI string
     },
 });
 
@@ -62,6 +63,8 @@ userid.get().then(function(id) {
 
 ## Release History
 
+- **v0.1.2**, *28 Jun 2016*
+    - Add support for redis URI.
 - **v0.1.1**, *08 Apr 2015*
     - Fix redis version check.
 - **v0.1.0**, *20 Feb 2015*
