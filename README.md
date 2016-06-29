@@ -63,6 +63,9 @@ userid.get().then(function(id) {
 
 ## Release History
 
+- **v1.0.0**, *29 Jun 2016*
+    - Fixed issue after upgrading to redis client which had breaking changed.
+    - Honorary release.
 - **v0.1.3**, *29 Jun 2016*
     - Upgraded all packages to latest.
 - **v0.1.2**, *28 Jun 2016*
