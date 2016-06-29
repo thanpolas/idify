@@ -24,3 +24,17 @@ describe('Idify Main', function() {
     }).then(done, done);
   });
 });
+
+describe('Connection', function() {
+  var testIdify;
+  it('Will establish connection successfully using a URI', function(done) {
+    testIdify = idify({
+      prefix: 'test',
+      name: 'test',
+      redis: {
+        uri: 'redis://localhost:6379',
+      },
+    });
+    testIdify.connect().then(done.bind(null, null), done);
+  });
+});
