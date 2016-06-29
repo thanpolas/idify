@@ -63,6 +63,8 @@ userid.get().then(function(id) {
 
 ## Release History
 
+- **v0.1.3**, *29 Jun 2016*
+    - Upgraded all packages to latest.
 - **v0.1.2**, *28 Jun 2016*
     - Add support for redis URI.
 - **v0.1.1**, *08 Apr 2015*
@@ -73,7 +75,7 @@ userid.get().then(function(id) {
     - Big Bang
 
 ## License
-Copyright ©2015 Thanasis Polychronakis. Licensed under the MIT license.
+Copyright ©Thanasis Polychronakis. Licensed under the MIT license.
 
 [express]: expressjs.com
 [kansas]: https://github.com/thanpolas/kansas
